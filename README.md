@@ -4,7 +4,7 @@ This project is a simple web application that fetches data from the [Bored API](
 
 ## Features
 
-- Fetches data from the API 15 times using a CORS proxy.
+- Fetches data from the API 15 times.
 - Displays the fetched data in a table.
 - Provides buttons to:
   - Download the data as a JSON file.
