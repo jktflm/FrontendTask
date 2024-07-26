@@ -3,16 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>API Data Fetcher</title>
+    <title>Bored API Utility</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>API Data Fetcher</h1>
-    <div id="controls">
-        <button id="download-json">Download JSON</button>
-        <button id="download-csv">Download CSV</button>
-        <button id="print-console">Print to Console</button>
-    </div>
+    <h1>Bored API Data</h1>
     <table id="data-table">
         <thead>
             <tr>
@@ -20,13 +15,20 @@
                 <th>Type</th>
                 <th>Participants</th>
                 <th>Price</th>
+                <th>Accessibility</th>
+                <th>Duration</th>
+                <th>Kid Friendly</th>
                 <th>Link</th>
                 <th>Key</th>
-                <th>Accessibility</th>
             </tr>
         </thead>
         <tbody></tbody>
     </table>
+    <div class="buttons">
+        <button id="download-json">Download JSON</button>
+        <button id="download-csv">Download CSV</button>
+        <button id="print-console">Print to Console</button>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
