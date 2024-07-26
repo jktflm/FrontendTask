@@ -1,28 +1,13 @@
 body {
     font-family: Arial, sans-serif;
+    text-align: center;
     margin: 20px;
 }
 
-h1 {
-    text-align: center;
-}
-
-#controls {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-button {
-    margin: 5px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
 table {
-    width: 100%;
+    margin: 20px auto;
     border-collapse: collapse;
-    margin-top: 20px;
+    width: 80%;
 }
 
 table, th, td {
@@ -34,6 +19,11 @@ th, td {
     text-align: left;
 }
 
-thead {
-    background-color: #f2f2f2;
+.buttons {
+    margin: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
 }
